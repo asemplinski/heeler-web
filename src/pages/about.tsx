@@ -10,7 +10,7 @@ export default function About(){
                 Heeler Consulting
             </h1>
             <p>
-                A consulting firm that specializes in the enterprise execution of the Mendix platform.p
+                A consulting firm that specializes in the enterprise success with the Mendix platform.
             </p>
         </Layout>
     )
