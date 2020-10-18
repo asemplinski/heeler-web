@@ -1,11 +1,30 @@
 import Typography from "typography"
-import fairyGateTheme from "typography-theme-fairy-gates"
+import lincoln from "typography-theme-lincoln"
 
-fairyGateTheme.bodyColor="white"
-fairyGateTheme.headerColor="white"
+lincoln.bodyColor="white"
+lincoln.headerColor="white"
 
 
-const typography = new Typography(fairyGateTheme)
+
+  lincoln.overrideThemeStyles = ({ rhythm }, options) => ({
+    
+    'ul': {
+        padding: '0 0 0 0',
+        margin: '0 0 0 0'
+        },
+    'li': {
+        padding: '0 0 0 0',
+        margin: '0 0 0 0',
+        marker: 'none'
+        },
+
+  })
+
+
+
+const typography = new Typography(lincoln)
+
+
 
 export const { scale, rhythm, options } = typography
 
