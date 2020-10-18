@@ -20,6 +20,7 @@ const Navbar = ( data ) =>{
         }
         render={data=> (
             <div className='Navbar'>
+                <div className='items-container'>
                 <ul className='nav-list'>
                     {data.site.siteMetadata.menuLinks.map(link => (
                         <li
@@ -31,6 +32,7 @@ const Navbar = ( data ) =>{
                         </li>
                     ))}
                 </ul>
+                </div>
             </div>
         )}
     />

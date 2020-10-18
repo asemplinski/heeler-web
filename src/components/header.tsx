@@ -1,6 +1,6 @@
 import React from "react"
 import Img from "gatsby-image"
-import {  StaticQuery, graphql } from "gatsby"
+import {  StaticQuery, graphql, Link } from "gatsby"
 import "../styles/header.scss"
 
 
@@ -46,7 +46,9 @@ const Header = ( data ) =>{
             return(
             <div className="header">
               <div className="logo">
+                <Link to='/'>
                 <Img fluid={data.file.childImageSharp.fluid}></Img>
+                </Link>
               </div>
             </div>)
           }}

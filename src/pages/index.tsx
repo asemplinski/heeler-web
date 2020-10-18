@@ -11,7 +11,7 @@ export default function Home() {
       <Layout>
         <img style={{marginTop: '5%'}} src="https://www.buythelogo.com/wp-content/uploads/2019/03/Letter-H-geometric-line-logo-vector.jpg"></img>
         <h1> Heeler</h1>
-        <p> This website is under development</p>
+        <p> This will be the home page!</p>
 
         <Link  className="link" to="/about">About</Link>
       </Layout>

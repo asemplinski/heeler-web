@@ -1,15 +1,17 @@
 import React from "react"
 import Layout from "../components/layout"
 
-export default function About(){
+export default function Contact(){
     return (
         <Layout>
             <h1>
-                Heeler Consulting
+                Contact Us
             </h1>
             <p>
-                A consulting firm that specializes in the enterprise success with the Mendix platform.
+                We'd love to hear from you!
             </p>
+
+            <p>Things to include: email, phone, linkedin, possible custom inquiry through the website?</p>
         </Layout>
     )
     

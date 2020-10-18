@@ -10,17 +10,18 @@ module.exports = {
     title: 'Heeler Consulting',
     menuLinks: [
       {
-        name: 'Home',
-        link:'/',
-      },
-      {
-        name: 'About',
-        link: '/about'
+        name: 'Consulting',
+        link:'/consulting',
       },
       {
         name: 'Services',
         link:'/services'
       },
+      {
+        name: 'About',
+        link: '/about'
+      },
+
       {
         name: "Contact",
         link: '/contact'
